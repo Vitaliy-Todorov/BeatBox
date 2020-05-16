@@ -21,6 +21,10 @@ android {
         }
     }
 
+    dataBinding {                                                                               //Data Binding поможет организовать работу с View так, чтобы нам не пришлось писать кучу методов findViewById, setText, setOnClickListener и т.п. https://startandroid.ru/ru/courses/architecture-components/27-course/architecture-components/551-urok-18-data-binding-osnovy.html
+        enabled = true;
+    }
+
 }
 
 dependencies {
